@@ -120,7 +120,6 @@ Start ➡️ Quiz ➡️ Score ➡️ Review ➡️ Exit
 
 Screenshots from the app.
 
-https://github.com/Istux/quizApp/blob/master/Screenshot%202025-05-20%20164612.png
 
 
 
