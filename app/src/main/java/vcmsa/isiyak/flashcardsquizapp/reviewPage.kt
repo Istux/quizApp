@@ -1,35 +1,33 @@
 package vcmsa.isiyak.flashcardsquizapp
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import kotlin.system.exitProcess
 
-class MainActivity : AppCompatActivity() {
-
+class reviewPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()  // To make sure content goes edge-to-edge
-        setContentView(R.layout.activity_main)
-
-        // Handle system bars (status/navigation bar insets) for edge-to-edge
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_review_page)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        //code starts here
 
-        // Set up the Start button click listener
-        val btnStart = findViewById<Button>(R.id.btnStart)
+        val btnExit = findViewById<Button>(R.id.btnExit)
 
-        btnStart.setOnClickListener {
-            val intent = Intent(this, questions::class.java)
-            startActivity(intent)
-
+        //Terminates the app
+        //AI assisted me in this part of the code
+        btnExit.setOnClickListener {
+            finishAffinity()
+            exitProcess(0)
         }
+
     }
 }
-
