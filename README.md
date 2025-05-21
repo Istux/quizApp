@@ -119,9 +119,7 @@ Navigate through:
 Start ➡️ Quiz ➡️ Score ➡️ Review ➡️ Exit
 
 Screenshots from the app.
-![image](https://github.com/user-attachments/assets/00e4452f-fec9-469d-a666-f93e88205952)
-![image](https://github.com/user-attachments/assets/339af621-97f7-4764-aaf3-0351eb543772)
-![Screenshot 2025-05-21 091545](https://github.com/user-attachments/assets/6ea65031-b845-4862-846b-c90a11e9cccc)
+![Screenshot 2025-05-21 091545](https://github.com/user-attachments/assets/3bab43d2-1822-47c2-8c1b-3b97b8021b80)
 
 
 
