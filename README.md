@@ -121,7 +121,7 @@ Start ➡️ Quiz ➡️ Score ➡️ Review ➡️ Exit
 Screenshots from the app.
 
 
-![Screenshot 2025-05-21 091545](https://github.com/user-attachments/assets/3bab43d2-1822-47c2-8c1b-3b97b8021b80)
+![Screenshot 2025-05-21 091840](https://github.com/user-attachments/assets/00f540f0-923a-48fa-8797-c3fd2c50f03e)
 
 
 
